@@ -7,18 +7,17 @@ A custom React hook for handling pagination logic in your applications.
 To install the hook, you can use npm or yarn:
 
 ```bash
-npm install your-package-name
+npm install @ahmedamin20/pagination
 # or
-yarn add your-package-name
+yarn add @ahmedamin20/pagination
 ```
 
 ## Usage
 To use the usePaginationHook, you can import it into your component and use it as shown below:
 
 ```javascript
-"use client"
-import React, { useEffect, useState } from 'react';
-import usePaginationHook from 'your-package-name';
+import React from 'react';
+import usePaginationHook from '@ahmedamin20/pagination';
 
 const PaginationComponent = ({ totalCount, items }) => {
   const { pagesCount, hasMore, page, setPage } = usePaginationHook({
