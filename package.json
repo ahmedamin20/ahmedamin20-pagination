@@ -1,6 +1,6 @@
 {
   "name": "@ahmedamin20/pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this Package Generates an array on of number for pagination",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,6 +12,7 @@
   "scripts": {
     "build": "tsup"
   },
+  "keywords": ["ahmedamin.work24@gmail.com", "@ahmedamin20/pagination"],
   "author": "ahmedamin.work24@gmail.com",
   "license": "MIT",
   "devDependencies": {
