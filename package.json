@@ -1,0 +1,26 @@
+{
+  "name": "@ahmedamin20/pagination",
+  "version": "1.0.1",
+  "description": "this Package Generates an array on of number for pagination",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedamin20/-ahmedamin20-pagination.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "ahmedamin.work24@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
