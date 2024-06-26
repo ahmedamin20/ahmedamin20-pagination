@@ -1,6 +1,6 @@
 {
   "name": "@ahmedamin20/pagination",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "this Package Generates an array on of number for pagination",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

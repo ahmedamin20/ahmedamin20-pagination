@@ -21,7 +21,7 @@ import usePaginationHook from '@ahmedamin20/pagination';
 
 const PaginationComponent = ({ totalCount, items }) => {
   const { pagesCount, hasMore, page, setPage } = usePaginationHook({
-    count: totalCount, //count of data already came from reponse
+    count: totalCount, //count of all records in Your db
     dataLength: items.length,
     limit: 5 // Optional, defaults to 5 if not provided
   });
